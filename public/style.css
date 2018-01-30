@@ -8,6 +8,43 @@
     background-color: #C1B5AD;
   }
 
+  #navbar {
+    height: 5vh;
+    width: 100vw;
+    background-color: #5389ad;
+    opacity: 0.65;
+    position: fixed;
+    top:20px;
+    z-index: 2
+    
+   
+  }
+
+  #selector {
+    height: 20vh;
+    width: 20vw;
+    background-color: #5389ad;
+    opacity: 0.85;
+    position: fixed;
+    top: 80px;
+    right: 20px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .selectchild {
+    flex-grow: 2;
+    flex-basis: 20%;
+
+  }
+
+  .selectchild .hidden {
+      z-index: -1;
+  }
+
   #map {
     height: 100vh;
     width: 100vw;
